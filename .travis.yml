@@ -16,3 +16,9 @@ cache:
   directories:
   - $HOME/.gradle/caches/
   - $HOME/.gradle/wrapper/
+
+addons:
+  sonarcloud:
+    organization: "lkrjunior"
+    token:
+      secure: "d47d6f75a4e0ae7aa1a40ceb84f3757f8c238b64"
