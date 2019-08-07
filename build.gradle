@@ -28,6 +28,7 @@ dependencies {
 sonarqube {
 	properties {
 		property "sonar.projectKey", "beautyscheduling"
+		property 'sonar.coverage.exclusions', "**/com/lucianorocha/beautyscheduling/**/*"
 	}
 }
 
@@ -53,6 +54,9 @@ jacocoTestCoverageVerification {
 				value = 'COVEREDRATIO'
 				minimum = 0.8
 			}
+			excludes = [
+					'com.lucianorocha.beautyscheduling.*'
+			]
 		}
 	}
 }
