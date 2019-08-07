@@ -20,6 +20,6 @@ cache:
 
 addons:
   sonarcloud:
-    organization: "lkrjunior"
+    organization: $sonar_organization
     token:
-      secure: "35835c1fabf08ce55293a37df2b203326cea2971"
+      secure: $sonar_token_secure
