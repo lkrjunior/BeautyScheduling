@@ -27,7 +27,7 @@ dependencies {
 
 sonarqube {
 	properties {
-		property "sonar.projectKey", "upphotos"
+		property "sonar.projectKey", "beautyscheduling"
 	}
 }
 

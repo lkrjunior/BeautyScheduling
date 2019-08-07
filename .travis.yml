@@ -22,4 +22,4 @@ addons:
   sonarcloud:
     organization: "lkrjunior"
     token:
-      secure: "d47d6f75a4e0ae7aa1a40ceb84f3757f8c238b64"
+      secure: "35835c1fabf08ce55293a37df2b203326cea2971"
